@@ -1,0 +1,181 @@
+    
+
+
+body{
+   max-width: 100%;
+    background-color:#ABDCFF;
+}
+header,#title,#banner,#taskbar{
+
+
+}
+.main #logo img{
+    float: left;
+    max-width: 100%;
+    width: 20%;
+    height: auto;
+}
+
+#taskbar ul{
+    float: left;
+    list-style-type: none;
+    max-width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 0.5%;
+    
+}
+
+#taskbar ul li{
+    display: inline-block;
+    max-width: 100%;
+    background-color: #fdeb71;
+    
+}
+
+#taskbar ul li a{                   
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: black;
+
+}
+
+#taskbar ul li a:hover{
+    background-color:rgb(81, 81, 131);
+    color:black;
+}
+
+#title{
+    color: darkblue;
+    font-size: large;
+    font-weight: bold;
+    max-width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    
+
+}
+
+#banner{
+    position: absolute;
+    max-width: 100%;
+    top: 16%;
+    left: 30%;
+    color: red;
+    
+    
+}
+
+#navigation{
+    float: right;
+    list-style-type: none;
+    
+}
+#navigation a{
+    display: inline-block;
+    text-decoration: none;
+    max-width: 100%;
+    color: black;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:white;
+    text-align: center;
+    background-color: #fdeb71;
+}
+
+#navigation a:hover{
+    background-color:red;
+    color: black;
+    
+}    
+
+#blog-list{
+    position: absolute;
+    width: 200%;
+    max-width: 100%;
+    top: 30%;
+    left: 1%;
+    color:rgb(3, 1, 1);
+    margin: 3px auto;
+    padding: 10px auto;
+}
+
+#blog-list h2{
+    max-width: 100%;
+    background-color:#feb692;
+}
+
+#blog-list ol{
+    background-color: #E2B0FF;
+    max-width: 100%;
+}
+
+
+
+.box{
+    margin: 30px 10px;
+    padding: 10px 5px;
+    border: 4px solid #ABDCFF;
+    max-width: 100%;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.inner-box{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: #ABDCFF;
+
+}
+
+.box img{
+    height: 150px;
+    width: 200px;
+
+}
+
+.about-section{
+    max-width: 100%;
+    width:  200%;
+    position: absolute;
+    top:  107%;
+    background-color:#feb692;
+}
+#top{
+    position: absolute;
+    top: 122%;
+}
+
+.box h3:hover{
+
+    background-color:#ABDCFF ;
+    color: black;
+}
+
+.inner-box a{
+    background-color: #ABDCFF;
+    text-decoration: none;
+    font-weight: bold;
+    border:white;
+    text-align: center;
+    background-color: #E2B0FF;
+}
+
+.inner-box a:hover{
+    color: black;
+    background-color: #fdeb71;
+}
+
+.box h3{
+    font-weight: bold;
+    font-size: larger;
+}
